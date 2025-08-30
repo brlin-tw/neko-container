@@ -16,3 +16,9 @@ services:
       NEKO_MEMBER_MULTIUSER_ADMIN_PASSWORD: admin
       NEKO_WEBRTC_EPR: 52000-52100
       NEKO_WEBRTC_ICELITE: 1
+
+      # If the server is behind a NAT, you want to specify a different
+      # IP address or use neko only in a local network specify the IP
+      # address here
+      # https://neko.m1k1o.net/docs/v3/configuration/webrtc#nat1to1
+      #NEKO_WEBRTC_NAT1TO1: 192.168.0.101
