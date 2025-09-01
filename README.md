@@ -16,7 +16,7 @@ Refer to the following instructions to use this product:
 1. Run the following command to create the container and start the service:
 
     ```bash
-    docker-compose up -d
+    docker compose up -d
     ```
 
 ## Notes
