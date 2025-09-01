@@ -2,10 +2,14 @@
 
 Quickly launch a Neko service instance that suits your needs!
 
-![Screenshot](screenshot.png "Screenshot of example usage, where a watch party is held in a household where one of the member is sick and need to be isolated from other watchees.  We do NOT endorse usage of this service to circumvent any restrictions of the video streaming service.")
+<img src="logo.png" alt="Logo" title="This is a remix of the original Neko project logo <https://neko.m1k1o.net/img/logo.png>" style="width:200px" />
 
 <https://gitlab.com/brlin/neko-container>  
 [![The GitLab CI pipeline status badge of the project's `main` branch](https://gitlab.com/brlin/neko-container/badges/main/pipeline.svg?ignore_skipped=true "Click here to check out the comprehensive status of the GitLab CI pipelines")](https://gitlab.com/brlin/neko-container/-/pipelines) [![GitHub Actions workflow status badge](https://github.com/brlin-tw/neko-container/actions/workflows/check-potential-problems.yml/badge.svg "GitHub Actions workflow status")](https://github.com/brlin-tw/neko-container/actions/workflows/check-potential-problems.yml) [![pre-commit enabled badge](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white "This project uses pre-commit to check potential problems")](https://pre-commit.com/) [![REUSE Specification compliance badge](https://api.reuse.software/badge/gitlab.com/brlin/neko-container "This project complies to the REUSE specification to decrease software licensing costs")](https://api.reuse.software/info/gitlab.com/brlin/neko-container)
+
+## Screenshots
+
+![Screenshot](screenshot.png "Screenshot of example usage, where a watch party is held in a household where one of the member is sick and need to be isolated from other watchees.  We do NOT endorse usage of this service to circumvent any restrictions of the video streaming service.")
 
 ## Limitations
 
