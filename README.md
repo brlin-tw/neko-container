@@ -60,6 +60,14 @@ data:image/vnd.microsoft.icon;base64,PASTE-FAVICON-DATA-HERE
 
 The following materials are referenced during the development of this product:
 
+* [Introduction | n.eko](https://neko.m1k1o.net/docs/v3/introduction)  
+  Explains the basics of the Neko service.
+* [Quick Start | n.eko](https://neko.m1k1o.net/docs/v3/quick-start)  
+  Explains the recommended specs for running Neko.
+* [Server IP Address | WebRTC Configuration | n.eko](https://neko.m1k1o.net/docs/v3/configuration/webrtc#ip)  
+  Explains how to configure Neko to work on local networks.
+* [Browsers Customization | n.eko](https://neko.m1k1o.net/docs/v3/customization/browsers)  
+  Explains how to persist data and apply customizations to the virtual browsers.
 * [data: URLs | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Schemes/data#Common_problems)  
   Explains the syntax of the Data URLs.
 
