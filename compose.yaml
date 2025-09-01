@@ -13,6 +13,9 @@ services:
     volumes: []
       # Enable this sequence item to enable browser profile persistence
       #- "./profile:/home/neko/.mozilla/firefox/profile.default"
+
+      # Enable this sequence item to customize Firefox browser policies
+      #- "./policy.json:/usr/lib/firefox/distribution/policies.json"
     environment:
       NEKO_DESKTOP_SCREEN: 1920x1080@30
       NEKO_MEMBER_MULTIUSER_USER_PASSWORD: neko
