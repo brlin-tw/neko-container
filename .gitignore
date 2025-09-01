@@ -94,3 +94,6 @@
 
 # Don't track persistent browser profile
 /profile/
+
+# Don't track production browser profile
+/policy.json
