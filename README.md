@@ -5,6 +5,10 @@ Quickly launch a Neko service instance that suits your needs!
 <https://gitlab.com/brlin/neko-container>  
 [![The GitLab CI pipeline status badge of the project's `main` branch](https://gitlab.com/brlin/neko-container/badges/main/pipeline.svg?ignore_skipped=true "Click here to check out the comprehensive status of the GitLab CI pipelines")](https://gitlab.com/brlin/neko-container/-/pipelines) [![GitHub Actions workflow status badge](https://github.com/brlin-tw/neko-container/actions/workflows/check-potential-problems.yml/badge.svg "GitHub Actions workflow status")](https://github.com/brlin-tw/neko-container/actions/workflows/check-potential-problems.yml) [![pre-commit enabled badge](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white "This project uses pre-commit to check potential problems")](https://pre-commit.com/) [![REUSE Specification compliance badge](https://api.reuse.software/badge/gitlab.com/brlin/neko-container "This project complies to the REUSE specification to decrease software licensing costs")](https://api.reuse.software/info/gitlab.com/brlin/neko-container)
 
+## Limitations
+
+Currently this deployment only supports transmission of credentials over plain-text, do not use any sensitive information in this deployment and always expect such information will be exposed to the public.
+
 ## Prerequisites
 
 The following prerequisites must met in order to use this product:
