@@ -19,7 +19,7 @@ Refer to the following instructions to use this product:
 
 1. Download the release archive from [the Releases page](https://gitlab.com/brlin/neko-container/-/releases).
 1. Extract the release archive using your preferred archive manipulation software.
-1. Edit [the compose configuration file](compose.yaml) to suit your needs.
+1. Edit [the compose configuration file](compose.yml) to suit your needs.
 1. In a text terminal, switch the working directory to the extracted folder.
 1. Run the following command to create the container and start the service:
 
