@@ -64,6 +64,7 @@
 *.bmp
 *.jpg
 *.png
+!screenshot.png
 
 # Don't track common export formats from Markdown
 *.doc?
