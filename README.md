@@ -5,6 +5,20 @@ Quickly launch a Neko service instance that suits your needs!
 <https://gitlab.com/brlin/neko-container>  
 [![The GitLab CI pipeline status badge of the project's `main` branch](https://gitlab.com/brlin/neko-container/badges/main/pipeline.svg?ignore_skipped=true "Click here to check out the comprehensive status of the GitLab CI pipelines")](https://gitlab.com/brlin/neko-container/-/pipelines) [![GitHub Actions workflow status badge](https://github.com/brlin-tw/neko-container/actions/workflows/check-potential-problems.yml/badge.svg "GitHub Actions workflow status")](https://github.com/brlin-tw/neko-container/actions/workflows/check-potential-problems.yml) [![pre-commit enabled badge](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white "This project uses pre-commit to check potential problems")](https://pre-commit.com/) [![REUSE Specification compliance badge](https://api.reuse.software/badge/gitlab.com/brlin/neko-container "This project complies to the REUSE specification to decrease software licensing costs")](https://api.reuse.software/info/gitlab.com/brlin/neko-container)
 
+## How to use
+
+Refer to the following instructions to use this product:
+
+1. Download the release archive from [the Releases page](https://gitlab.com/brlin/neko-container/-/releases).
+1. Extract the release archive using your preferred archive manipulation software.
+1. Edit [the compose configuration file](compose.yaml) to suit your needs.
+1. In a text terminal, switch the working directory to the extracted folder.
+1. Run the following command to create the container and start the service:
+
+    ```bash
+    docker-compose up -d
+    ```
+
 ## Licensing
 
 Unless otherwise noted([comment headers](https://reuse.software/spec-3.3/#comment-headers)/[REUSE.toml](https://reuse.software/spec-3.3/#reusetoml)), this product is licensed under [the 2.0 version of the Apache License](https://www.apache.org/licenses/LICENSE-2.0), or any of its more recent versions of your preference.
