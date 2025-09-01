@@ -19,6 +19,33 @@ Refer to the following instructions to use this product:
     docker-compose up -d
     ```
 
+## Notes
+
+The following are the notes for using this product:
+
+### How to add favicons for bookmarks?
+
+Firefox doesn't allow URLs in the value of the Bookmarks.Favicon policy key (contrary to the documentation), you must embed the data of the favicon into the policy using the data URI scheme.
+
+You may do so in a Wayland Linux session by runnint the following command:
+
+```bash
+curl https://example.com/favicon.ico | base64 | tr --delete '\n' | wl-copy
+```
+
+This copies the base64-encoded favicon to your clipboard, which can be pasted into the `Favicon` field using the following syntax:
+
+```text
+data:image/vnd.microsoft.icon;base64,PASTE-FAVICON-DATA-HERE
+```
+
+## References
+
+The following materials are referenced during the development of this product:
+
+* [data: URLs | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Schemes/data#Common_problems)  
+  Explains the syntax of the Data URLs.
+
 ## Licensing
 
 Unless otherwise noted([comment headers](https://reuse.software/spec-3.3/#comment-headers)/[REUSE.toml](https://reuse.software/spec-3.3/#reusetoml)), this product is licensed under [the 2.0 version of the Apache License](https://www.apache.org/licenses/LICENSE-2.0), or any of its more recent versions of your preference.
