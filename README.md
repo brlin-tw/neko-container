@@ -1,4 +1,4 @@
-# Container deployment of Neko (IN DEVELOPMENT)
+# Container deployment of Neko
 
 Quickly launch a Neko service instance that suits your needs!
 
