@@ -30,7 +30,10 @@ Firefox doesn't allow URLs in the value of the Bookmarks.Favicon policy key (con
 You may do so in a Wayland Linux session by runnint the following command:
 
 ```bash
-curl https://example.com/favicon.ico | base64 | tr --delete '\n' | wl-copy
+curl https://example.com/favicon.ico \
+    | base64 \
+    | tr --delete '\n' \
+    | wl-copy
 ```
 
 This copies the base64-encoded favicon to your clipboard, which can be pasted into the `Favicon` field using the following syntax:
