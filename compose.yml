@@ -13,7 +13,7 @@ services:
       - "8080:8080"
       - "52000-52100:52000-52100/udp"
     volumes: []
-      # Enable this sequence item to enable browser profile persistence
+      # Enable this sequence item to enable Firefox browser profile persistence
       #- "./profile:/home/neko/.mozilla/firefox/profile.default"
 
       # Enable this sequence item to customize Firefox browser policies
