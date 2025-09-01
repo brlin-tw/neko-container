@@ -27,6 +27,8 @@ Refer to the following instructions to use this product:
     docker compose up -d
     ```
 
+1. Access the Neko service by navigating to `http://<your-server-ip>:8080` in your web browser.
+
 ## Notes
 
 The following are the notes for using this product:
