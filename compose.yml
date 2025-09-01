@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 services:
   neko:
+    container_name: neko
+    hostname: neko
     image: "ghcr.io/m1k1o/neko/firefox:latest"
     restart: "unless-stopped"
     shm_size: "2gb"
