@@ -10,6 +10,9 @@ services:
     ports:
       - "8080:8080"
       - "52000-52100:52000-52100/udp"
+    volumes: []
+      # Enable this sequence item to enable browser profile persistence
+      #- "./profile:/home/neko/.mozilla/firefox/profile.default"
     environment:
       NEKO_DESKTOP_SCREEN: 1920x1080@30
       NEKO_MEMBER_MULTIUSER_USER_PASSWORD: neko
